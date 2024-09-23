@@ -12,23 +12,25 @@ body {
 }
 
 /* Header */
+/* Header */
 .main-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center content */
     align-items: center;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.main-header .logo img {
-    height: 50px;
+.main-header .logo {
+    margin-right: auto; /* Keep logo on the left */
 }
 
 .main-nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    margin: 0;
 }
 
 .main-nav ul li a {
